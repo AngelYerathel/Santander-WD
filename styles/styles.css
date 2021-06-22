@@ -1,10 +1,6 @@
-main {
-    margin-top: 285px;
-    text-align: center;
-  }
-  
 .fixed-header {
     position: fixed;
+    display: block;
     background-color: #fffbf7;
     top: 0;
     left: 0;
@@ -77,7 +73,7 @@ a:hover {
 .promo {
     display: flex;
     width: 70%;
-    margin: 100px auto;
+    margin: 202px auto;
     align-items: center;
 }
 
