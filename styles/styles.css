@@ -1,74 +1,134 @@
-/*Estilo de la sección de anuncios*/
-.ad-section {
-    background-color: #025157;
+/*Estilos de la sección de wok*/
+body {
+    background-color: #fffbf7;
+}
+
+.wok-section {
+    width: 100%;
     margin: 0;
-    padding: 0;
     display: grid;
     grid-template: 
-        "ad-1 ad-2" 20%
-        "ad-3 ad-4" 20%
-        / 40% 40%;
+        "header" 20%
+        "body" 80%
+        / 90%;
+    gap: 7em;
+    place-items: start center;
+    justify-content: center;
+}
+
+.wok-section > * {
+    width: 90%;
+}
+
+.wok-header {
+    width: 65%;
+    display: grid;
+    justify-items: center;
+}
+
+.wok-header h1 {
+    font-size: 55px;
+    color: #025157;
+    letter-spacing: -3px;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.wok-header p {
+    text-align: center;
+}
+
+.whh {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(103, 181, 75);
+    text-decoration-line: none; 
+}
+
+.wok-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+}
+
+.wok-body {
+    height: 95%;
+    display: grid;
+    grid-template: 
+        "art-1 art-2 art-3 art-4" 100%
+        / 22% 22% 22% 22%;
     gap: 2em;
     place-content: center;
 }
 
-.ad-article {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    margin: 0;
-    padding: 1em .5em 2em 2em;
+.wok-article {
+    background-color: white;
     display: grid;
-    grid-template: "read view" 100% / 70% 30%;
-    place-content: center;
-    gap: 1em;
-}
-
-.ad-left {
-    display: grid;
-    margin: 0;
-    padding: 0;
+    height: 90%;
     grid-template: 
-        "icon" 30%
-        "ad-body" 70%
-        / 100%;
+        "img" 65%
+        "text" 40%
+        / 95%;
+    place-items: stretch;
+    gap: 0;
 }
 
-.ad-icon {
-    height: 4em;
-    width: 4em;
-    align-self: flex-end;
-    padding: 0 2em;
+.wok-top {
+    display: grid;
+    grid-template: auto;
+    height: 15em;
+    align-self: stretch;
 }
 
-.ad-left-body {
-    align-self: flex-start;
+.wok-text {
+    display: grid;
+    grid-template: auto;
+    height: 8em;
+    align-items: flex-end;
 }
 
-.ad-left-body h3 {
-    font-size: 24px;
-    color: rgb(52, 52, 52);
+.wok-icon {
+    height: 1em;
+    width: 1em;
+    padding: 15px;
+}
+
+.wok-img {
+    height: 15em;
+    width: 100%;
+}
+
+.wok-title {
+    margin: 0;
+    font-size: 26px;
+    line-height: 1em;
+    font-family: vesterbroextrabold,Arial, sans-serif;
     font-weight: 400;
+    color: #025157;
+    justify-self: center;
 }
 
-.ad-left-body p {
+.wok-p {
+    margin: 0;
+    padding: 15px;
     font-size: 16px;
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(126, 126, 126);
 }
 
-.ad-left-body a {
+.wok-link {
+    margin: 0;
+    padding: 0 15px;
     font-size: 16px;
     font-weight: 600;
     color: rgb(103, 181, 75);
     text-decoration-line: none;
-}
-
-.ad-right  {
-    overflow: hidden;
-}
-
-.ad-right .ad-img {
-    height: 100%;
-    align-self: stretch;
 }
