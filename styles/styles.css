@@ -1,3 +1,282 @@
+/*Estilos del encabezado de la página*/
+.fixed-header {
+    position: fixed;
+    display: block;
+    background-color: #fffbf7;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header {
+    margin: 40px 20px;
+    font-size: 0;
+    line-height: 45px;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+}
+
+li {
+    display: inline;
+    padding: 0 25px;
+    color: #025157;
+}
+
+.actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions :first-child {
+    color: #67b54b;
+    padding: 0 10px;
+}
+
+.actions :last-child {
+    background-color: #67b65b;
+    color: white;
+    padding: 12px 14px;
+    border-radius: 5px;
+}
+
+
+li a, .actions a {
+    color: #025157;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #025157;
+    text-decoration: underline #025157;
+}
+
+/*Estilos de la 1er sección de la página*/
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 202px auto 20px auto;
+    align-items: center;
+}
+
+.fsection h1 {
+    font-style: italic;
+    color: #025157;
+}
+
+section .form p {
+    color: #025157;
+}
+
+.fsection p {
+    color: #343434;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+    border-radius: 20px thick black;
+}
+
+.media > * {
+    padding: 15px;
+}
+
+.media img {
+    width: 150px;
+    margin: 10px 0 0 0;
+    border: 3px dotted red;
+}
+
+/* Estilos de la 2da sección de la página*/
+.section2 {
+    display: flex;
+    width: (100%-20px);
+    background-color: #a1d683;
+    padding: 5% 10% 6% 3%;
+    margin: 0 15%;
+    height: 502.75;
+}
+
+.logsec {
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px 0 0;
+}
+
+.logsec h2{
+    font-family: vesterbroextrabold, Arial, sand-serif;
+    font-weight: 400!important;
+    color: #025157;
+}
+
+.logsec p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logsec button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+}
+
+div.logos-2sec {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.logos-2sec > * {
+    padding: 14px 20px;
+}
+
+
+.slide {
+    display: flex;
+    height: 502.75px;
+    width: 30%;
+    align-items: center;
+    vertical-align: middle;
+    background-color: white;
+    padding: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.slide a {
+    text-decoration: none;
+}
+
+.slide a:hover {
+    font-style: 0;
+    text-decoration: none;
+}
+
+div.s-bck-i {
+    
+    background-image: url(https://getmatcha.com/wp-content/uploads/2019/05/profile-headshot-square.png);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.s-bck-i {
+    position: relative;
+    height: 129.75px;
+}
+
+div.s-l {
+    background-color: #f9da73;
+}
+
+.s-l {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.s-l-i {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 76%;
+    width: 100%;
+    vertical-align: baseline;
+    display: block;
+}
+
+.card-body h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #025157;
+}
+
+.card-body h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.buy-section {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.buy-section img {
+    width: 40px;
+    -webkit-box-flex: 0;
+    flex: 0 0 40px;
+}
+
+.buy-section p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    letter-spacing: -.5px;
+    color: #828282;
+    margin-right: 20px;
+}
+
+.card-body button {
+    background: #025157;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /*Estilo de la sección de anuncios*/
 .ad-section {
     background-color: #025157;
@@ -71,4 +350,138 @@
 .ad-right .ad-img {
     height: 100%;
     align-self: stretch;
+}
+
+body {
+    background-color: #fffbf7;
+}
+
+.wok-section {
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template: 
+        "header" 20%
+        "body" 80%
+        / 90%;
+    gap: 7em;
+    place-items: start center;
+    justify-content: center;
+}
+
+.wok-section > * {
+    width: 90%;
+}
+
+.wok-header {
+    width: 65%;
+    display: grid;
+    justify-items: center;
+}
+
+.wok-header h1 {
+    font-size: 55px;
+    color: #025157;
+    letter-spacing: -3px;
+    font-family: vesterbroextrabold,Arial,sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.wok-header p {
+    text-align: center;
+}
+
+.whh {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(103, 181, 75);
+    text-decoration-line: none; 
+}
+
+.wok-button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 15px 20px;
+    text-align: center;
+    color: #fff;
+    background: #025157;
+    border-radius: 8px;
+}
+
+.wok-body {
+    height: 95%;
+    display: grid;
+    grid-template: 
+        "art-1 art-2 art-3 art-4" 100%
+        / 22% 22% 22% 22%;
+    gap: 2em;
+    place-content: center;
+}
+
+.wok-article {
+    background-color: white;
+    display: grid;
+    height: 90%;
+    grid-template: 
+        "img" 65%
+        "text" 40%
+        / 95%;
+    place-items: stretch;
+    gap: 0;
+}
+
+.wok-top {
+    display: grid;
+    grid-template: auto;
+    height: 15em;
+    align-self: stretch;
+}
+
+.wok-text {
+    display: grid;
+    grid-template: auto;
+    height: 8em;
+    align-items: flex-end;
+}
+
+.wok-icon {
+    height: 1em;
+    width: 1em;
+    padding: 15px;
+}
+
+.wok-img {
+    height: 15em;
+    width: 100%;
+}
+
+.wok-title {
+    margin: 0;
+    font-size: 26px;
+    line-height: 1em;
+    font-family: vesterbroextrabold,Arial, sans-serif;
+    font-weight: 400;
+    color: #025157;
+    justify-self: center;
+}
+
+.wok-p {
+    margin: 0;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(126, 126, 126);
+}
+
+.wok-link {
+    margin: 0;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(103, 181, 75);
+    text-decoration-line: none;
 }

@@ -8,7 +8,107 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <!-- Sección de anuncios -->
+
+    <section class="fixed-header">
+        <header class="header">
+            <!-- Logo con link a la página principal -->
+            <a class="logo" href="index.html">
+              <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" title="Logo de la página Matcha" alt="Estrella verde de 10 picos con relleno blanco"/>
+            </a>
+            <!-- Menú de navegación -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="links/products.html">Products</a></li>
+                    <li><a href="links/templates.html">Templates</a></li>
+                    <li><a href="links/pricing.html">Pricing</a></li>
+                    <li><a href="links/customers.html">Customers</a></li>
+                    <li><a href="links/blog.html">Blog</a></li>
+                    <li><a href="links/resources.html">Resources</a></li>
+                </ul>
+            </nav>
+            <!-- Contenedor de acciones de usuario -->
+            <div class="actions">
+                <a href="links/login.html">Sign in</a>
+                <input type="button" id="trial-button" value="Start free trial">
+            </div>
+        </header>
+    </section>
+    
+    <!-- Contenedor de la primera sección de la página -->
+    <section class="promo">
+        <article class="fsection">
+            <h1>Let´s face it.<br>Your blog stinks.</h1>
+            <p>Blog better with the first all-in-one blogging tool for growing ecommerce brands. Connect your blog, create 
+                and optimize blog posts for each stage of the buyer’s journey, and measure the results.
+            </p>
+            <form class="form" action="">
+                <p><strong>Registro</strong></p>
+                <input type="email" name="email" id="email-login" placeholder="example: yerathel2@gmail.com">
+                <input type="button" value="Enter">
+            </form>
+        </article>
+        <!-- Contenedor de video -->
+        <article class="media">
+            <video 
+                controls
+                poster="images/cat.jpg" 
+                width="70%" height="30%">
+                <source
+                    type="video/webm"
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+                />
+                <source
+                    type="video/mp4"
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                />
+            </video>
+            <img src="images/see_how_it_works (1).png" alt="See How It Works">
+        </article>
+    </section>
+
+  <!-- Contenedor de 2da sección de la página -->
+  <section class="section2">
+    <article class="logsec">
+      <h2>Growing ecommerce brands rely on Matcha.</h2>
+      <p>
+          Are you tired of wasting time publishing blog articles to only see a trickle of traffic and no impact on sales? 
+          Koin hundreds of business owners and ecomerce marketers who rely on Matcha for quality content and consistent 
+          performance from their blogs. <br><br> <strong>Angel Y. Ramírez</strong>
+      </p>
+      <button>Who uses Matcha?</button>
+      <div class="logos-2sec">
+        <img src="https://getmatcha.com/wp-content/uploads/2020/08/superfeet.png" alt="Superfeet logo">
+        <img src="https://getmatcha.com/wp-content/uploads/2020/08/spirithoods.png" alt="Spirithoods logo">
+        <img src="https://getmatcha.com/wp-content/uploads/2020/08/seatosummit.png" alt="Seatosummit logo">
+        <img src="https://getmatcha.com/wp-content/uploads/2020/08/osprey.png" alt="Osprey logo">
+        <img src="	https://getmatcha.com/wp-content/uploads/2020/08/oars.png" alt="Oars + Alps logo">
+        <img src="https://getmatcha.com/wp-content/uploads/2020/08/everly.png" alt="Everly logo">
+      </div>
+    </article>
+    <!-- Contenedor de slider -->
+    <!-- Imagen de slide-->
+    <div class="slide">
+      <a href="">
+        <div class="s-bck-i">
+          <div class="s-l">
+          <img class="s-l-i" src="https://getmatcha.com/wp-content/uploads/2019/05/everly_logo_blue_v3_x60@2x.png" alt="logo de everly">
+          </div>
+        </div>
+        <!-- Cuerpo de slide -->
+        <div class="card-body">
+          <h5>Everly</h5>
+          <h2>Earlu-Stage CPG Brand Increases Lead Conversion 20x, Ecommerce Revenue 20%</h2>
+          <div class="buy-section">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_cart.png" alt="Cart icon">
+          <p>22% of monthly revenue influenced by content</p>
+        </div>
+          <button class="slider-button">See Case Study</button>
+        </div>              
+      </a>
+    </div> 
+  </section>
+
+    <!-- Sección de anuncios -->
   <section class="ad-section">
     <!-- Anuncio 1 -->
     <article class="ad-article"> 
@@ -73,6 +173,74 @@
       </div>
     </article>  
   </section>
+
+  <!-- Sección de wok -->
+  <section class="wok-section">
+    <!-- Header de la sección wok -->
+    <header class="wok-header">
+      <h1>How does Matcha wok?</h1>
+      <p>Your blog can be so much more than window dressing. Use Matcha´s 
+        <a class="whh" href="">simple formula</a> to transform your blog into an ecommerce growth engine.
+      </p>
+      <button class="wok-button">Explore the platform</button>
+    </header>
+    <!-- Opciones a elegir de la sección wok-->
+    <!-- Opción 1 -->
+    <div class="wok-body">
+      <article class="wok-article">
+        <div class="wok-top">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_content.png" alt="Publish icon" class="wok-icon">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-publish.png" alt="Publish image" class="wok-img">
+        </div>
+        <div class="wok-text">
+          <h3 class="wok-title">Publish</h3>
+          <p class="wok-p">Effortlessly fill your blog with content that shoppers want to read.
+          </p>
+          <a href="" class="wok-link">Publish instantly &#8594</a>
+      </div>
+      </article>
+      <!-- Opción 2 -->
+      <article class="wok-article">
+        <div class="wok-top">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_channels.png"  alt="Publish icon" class="wok-icon">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-promote.png" alt="Publish image" class="wok-img">
+        </div>
+        <div class="wok-text">
+          <h3 class="wok-title">Promote</h3>
+          <p class="wok-p">Use articles in email, social, and content ads to attract more site visitors.
+          </p>
+          <a href="" class="wok-link">Drrive morer site visitors &#8594</a>
+        </div>
+      </article>
+      <!-- Opción 3 -->
+      <article class="wok-article">
+        <div class="wok-top">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_funnel.png"  alt="Publish icon" class="wok-icon">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-capture.png" alt="Publish image" class="wok-img">
+        </div>
+        <div class="wok-text">
+          <h3 class="wok-title">Capture</h3>
+          <p class="wok-p">Turn readers into email sibscribers and subscribers into customers.
+          </p>
+          <a href="" class="wok-link">Grow your email list &#8594</a>
+        </div>
+      </article>
+      <!-- Opción 4 -->
+      <article class="wok-article">
+        <div class="wok-top">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/icon_chart.png" alt="Publish icon" class="wok-icon">
+          <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/ill-measure.png" alt="Publis image" class="wok-img">
+        </div>
+        <div class="wok-text">
+          <h3 class="wok-title">Measure</h3>
+          <p class="wok-p">See what´s working and what´s not to easily optimize for more traddic, email subscribers, and sales.
+          </p>
+          <a href="" class="wok-link">Track performance &#8594</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
 
 </body>
 </html>
