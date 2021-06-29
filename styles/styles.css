@@ -80,6 +80,7 @@ a:hover {
 }
 
 .fsection h1 {
+    font-size: 60px;
     font-style: italic;
     color: #025157;
 }
@@ -484,4 +485,72 @@ body {
     font-weight: 600;
     color: rgb(103, 181, 75);
     text-decoration-line: none;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    .navbar, .actions {
+        display: none;
+    }
+
+    .fsection h1 {
+        font-size: 20px;
+        color: #942739;
+    }
+
+    .header {
+        margin: 10px;
+    }
+
+    .promo {
+        margin: 80px auto 10px auto;
+    }
+
+    .form {
+        display: flex;
+        flex-flow: column;
+        padding: 15px;
+    }
+
+    .promo {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .ad-section {
+        display: flex;
+        flex-flow: column;
+        max-width: 90%;
+        height: 90%;
+        margin: 20px auto 20px 15%;
+    }
+
+    .ad-article {
+        display: flex;
+        max-width: 70%;
+        height: 400px;
+        margin-left: 8%;
+        margin: 10% 0 10% 8%;
+
+    }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
 }
